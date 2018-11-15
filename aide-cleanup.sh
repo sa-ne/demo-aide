@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo -e "Cleaning up ...
+"
 yum remove -y aide
 rm -rf /var/lib/aide
 rm -f /root/keep-file
@@ -8,13 +10,11 @@ rm -f /root/keep-file
 rm -f /sbin/backdoor
 # fix /etc/hosts
 mv /etc/hosts.bak /etc/hosts
-# change password (shadow)
-passwd mark
+# remove user
+userdel -rf aideuser
 # remove package
 yum remove -y zip
 # remove cronjob
 rm -f /etc/cron.hourly/backdoor.sh
 # remove secret-file
 rm -f /root/secret-file
-
-
