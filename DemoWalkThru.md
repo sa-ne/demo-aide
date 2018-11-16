@@ -1,4 +1,4 @@
-## Demo WalkThru
+## AIDE Demo WalkThru
 
 ### Requirements
 * Minimum VM: 1vCPU x 1G mem, running RHEL 7
