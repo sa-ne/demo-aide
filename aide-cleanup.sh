@@ -18,3 +18,5 @@ yum remove -y zip
 rm -f /etc/cron.hourly/backdoor.sh
 # remove secret-file
 rm -f /root/secret-file
+# remote important-dir
+rm -rf /important-dir
