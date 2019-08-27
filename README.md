@@ -39,4 +39,5 @@ To change the location of the AIDE database, edit the /etc/aide.conf file and mo
 Important: To avoid SELinux denials after the AIDE database location change, update your SELinux policy accordingly.
 
 ### References and Resources
-* [Red Hat Documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/sec-using-aide)
+* [Red Hat Documentation - RHEL 7](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/sec-using-aide)
+* [Red Hat Documentation - RHEL 8](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/security_hardening/checking-integrity-with-aide_security-hardening)

@@ -1,7 +1,7 @@
 ## AIDE Demo WalkThru
 
 ### Requirements
-* Minimum VM: 1vCPU x 1G mem, running RHEL 7
+* Minimum VM: 1vCPU x 1G mem, running RHEL 7.latest or RHEL 8.latest
 * Setup script, ```aide-setup.sh```, will create additional requirements
 
 ### WalkThru
